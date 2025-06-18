@@ -77,7 +77,6 @@ header {
   }
 }
 
-
 @keyframes sparkle {
   0% {
     background-position: 0% 50%;
@@ -90,11 +89,25 @@ header {
   }
 }
 
+.you-image {
+  max-width: 100%;
+  max-height: auto;
+  clip-path: circle(50%);
+  /* clip-path: inset(20px round 15px); */
+}
+
+.cat-img {
+  max-width: 100%;
+  max-height: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
 .footer {
   margin: 20px;
   text-align: end;
   padding: 15px;
-  color: black;
   font-size: 24px;
   font-weight: bold;
   font-family: "Poppins", sans-serif; /* Font chữ hiện đại */
